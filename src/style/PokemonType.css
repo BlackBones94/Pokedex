@@ -1,0 +1,72 @@
+.pokemon-card.normal-type {
+    background-color: #A8A77A;
+  }
+  
+  .pokemon-card.fire-type {
+    background-color: #EE8130;
+  }
+  
+  .pokemon-card.water-type {
+    background-color: #6390F0;
+  }
+  
+  .pokemon-card.electric-type {
+    background-color: #F7D02C;
+  }
+  
+  .pokemon-card.grass-type {
+    background-color: #7AC74C;
+  }
+  
+  .pokemon-card.ice-type {
+    background-color: #96D9D6;
+  }
+  
+  .pokemon-card.fighting-type {
+    background-color: #C22E28;
+  }
+  
+  .pokemon-card.poison-type {
+    background-color: #A33EA1;
+  }
+  
+  .pokemon-card.ground-type {
+    background-color: #E2BF65;
+  }
+  
+  .pokemon-card.flying-type {
+    background-color: #A98FF3;
+  }
+  
+  .pokemon-card.psychic-type {
+    background-color: #F95587;
+  }
+  
+  .pokemon-card.bug-type {
+    background-color: #A6B91A;
+  }
+  
+  .pokemon-card.rock-type {
+    background-color: #B6A136;
+  }
+  
+  .pokemon-card.ghost-type {
+    background-color: #735797;
+  }
+  
+  .pokemon-card.dragon-type {
+    background-color: #6F35FC;
+  }
+  
+  .pokemon-card.dark-type {
+    background-color: #705746;
+  }
+  
+  .pokemon-card.steel-type {
+    background-color: #B7B7CE;
+  }
+  
+  .pokemon-card.fairy-type {
+    background-color: #D685AD;
+  }
+  

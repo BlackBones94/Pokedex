@@ -1,0 +1,122 @@
+.pokemon-card {
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 331px; 
+    height: 462px;
+    border: 2px solid #f9d85e;
+    box-shadow: inset 0 0 0 15px #f3b05a;
+    border-radius: 10px; 
+    transform-style: preserve-3d;
+    transition: transform 0.5s,  box-shadow 0.5s;
+    position: relative;
+      }
+  
+  .pokemon-card h2 {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+
+  .top-card{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 9%;
+    padding-right: 9%;
+  }
+  
+  .hp {
+    position: absolute;
+    bottom: 85.5%;
+    right: 40px;
+   
+  }
+
+
+  .pokemon-card img {
+    object-fit: contain;
+    width: 80%;
+    height: 150px;
+    /* border-radius: 5px; */
+    border: 8px solid #f9d85e;
+    box-shadow: inset 0 0 0 2px #f3b05a;
+
+    background-color: white;
+  }
+  
+  /* .pokemon-card .pokemon-details {
+    margin-top: 15px;
+  }
+   */
+  .pokemon-card .pokemon-details p {
+    color: whitesmoke;
+    font-size: 0.7em;
+    margin: 1px 0;
+    margin-left: 5px;
+  }
+  
+  .pokemon-attack{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+
+  .pokemon-card .pokemon-attack:not(:last-child) {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px; 
+    margin-bottom: 5px; 
+  }
+
+  .pokemon-card .pokemon-attack strong {
+    font-size: 1em; 
+  }
+  
+  .pokemon-card .pokemon-attack p {
+    font-size: 0.8em; 
+  }
+
+  .pokemon-card .attack-name {
+    font-weight: bold;
+    margin-right: 5px; 
+  }
+
+  
+
+  .pokemon-card .pokemon-attack p {
+    max-height: 50px; 
+    overflow: hidden; 
+  }
+
+  .pokemon-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    padding: 20px;
+    justify-content: center;
+    justify-items: center;
+  }
+
+
+  .characteristic{
+    display: flex;
+    justify-content: center;
+    background-color: #f3b05a;
+    width: 85%;;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 0px 0px 5px 5px;
+    position: relative;
+    bottom: 5px;
+  }
+
+
+  @media (max-width: 600px) {
+    .pokemon-grid {
+      grid-template-columns: 1fr;
+    }
+  }
